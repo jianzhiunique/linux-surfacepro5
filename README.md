@@ -4,7 +4,9 @@
 
 首先说一下背景，本人之前有MacBook Pro（2016款），因2016年出的这批有电池、键盘等一系列问题（官方已确认），我的电池鼓包了两次，键盘也有按键重复问题以及按键摁不动的问题，所以最终也没在闲鱼上坑别人，直接走了闲鱼的回收，只回收了2700块钱。
 
-在此期间一直关注Surface Pro，因为它是平板，在便携性方面非常吸引我，另外它的背部支架设计不错。当然在购买之前就已经开始考虑往Surface Pro上运行Linux这件事了，对各版本对Linux的支持情况做了考察，具体见https://github.com/linux-surface/linux-surface/wiki/Supported-Devices-and-Features#feature-matrix。总的来说，从Surface Pro 5（2017）开始，支持的比较完善了（摄像头除外，但我基本不用）。
+在此期间一直关注Surface Pro，因为它是平板，在便携性方面非常吸引我，另外它的背部支架设计不错。当然在购买之前就已经开始考虑往Surface Pro上运行Linux这件事了，对各版本对Linux的支持情况做了考察，具体见https://github.com/linux-surface/linux-surface/wiki/Supported-Devices-and-Features#feature-matrix
+
+总的来说，从Surface Pro 5（2017）开始，支持的比较完善了（摄像头除外，但我基本不用）。
 
 机型选择上，主要考虑了价格。因为从Surface Pro 5开始，机型的外观和功能方面，感觉变化并不大，另外本来也没想花很多钱在这上面，所以最终选择了Surface Pro 5。闲鱼上淘的二手，花费3600块。
 
@@ -89,7 +91,9 @@ https://github.com/linux-surface/linux-surface/wiki/Package-Repositories
 
 这种能够自动更新，但我推荐直接使用git上发布的release，选择lts版本的内核（4.19），主要原因是5.8内核iptsd多点触控对pen的支持不好，画图的时候手和pen识别有问题，无法正常使用pen。
 
-在https://github.com/linux-surface/linux-surface/releases页面上下载lts内核文件。
+在https://github.com/linux-surface/linux-surface/releases
+
+页面上下载lts内核文件。
 
 linux-surface-lts-4.19.150-1-x86_64.pkg.tar.zst
 
@@ -260,7 +264,7 @@ env WINEPREFIX="$HOME/.deepinwine/Deepin-Wechat" winecfg
 
 #### 最终桌面效果图
 
-![深度截图_选择区域_20201012213453](images/深度截图_选择区域_20201012213453.png)
+![深度截图_选择区域_20201012213453](images/20201012213453.png)
 
 
 
