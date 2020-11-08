@@ -124,7 +124,7 @@ sudo pacman -Sy vim
 
 软件商店搜索deepin-wine-wechat（AUR）安装
 
-安装后打开，缩放有问题，设置wine缩放
+安装后打开，缩放有问题，首先可以安装PlayOnLinux（其中包含了winecfg这个命令），设置wine缩放
 
 终端中输入
 
